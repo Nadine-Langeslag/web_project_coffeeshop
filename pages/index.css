@@ -143,8 +143,8 @@
   justify-content: center;
 }
 .reservation__title {
-  margin-top: 100px;
-  padding: 0 auto 80px;
+  padding-top: 100px;
+  margin: 0 auto 80px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
