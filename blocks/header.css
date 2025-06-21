@@ -3,6 +3,7 @@
   background-image: url(../images/background_header.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -10,6 +11,7 @@
   max-height: 800px;
   position: relative;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .header__content {
   display: flex;
@@ -23,7 +25,7 @@
   letter-spacing: -1px;
   margin: 183px 0 0px 80px;
 }
-.header__title_blue {
+.header__span-accent {
   margin: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
@@ -42,7 +44,6 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  box-sizing: border-box;
 }
 .header__footer {
   margin-top: auto;
